@@ -1,0 +1,120 @@
+body {
+    font-family: 'Tahoma', sans-serif;
+    direction: rtl;
+    text-align: right;
+    background-color: #f3f6f8;
+}
+
+header {
+    background-color: #343a40;
+    padding: 10px;
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero {
+    background: image() no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(15, 15, 15);
+}
+
+.content {
+    padding: 20px;
+}
+
+.gallery-container img {
+    width: 30%;
+    border-radius: 10px;
+   
+}
+img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    container {
+        display: grid;
+        place-items: center;
+        height: 100vh;
+    }
+    
+}
+.video-container video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #2c3e50;
+    color: #fff ;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+#poem { background:url('https://source.unsplash.com/1600x900/?nature,mountains');
+    padding: 60px 0;
+    text-align: center;
+    color:black;
+
+}
+.poem-container {
+    background-image: rgba(0, 0, 0, 0.6);
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(225, 225, 225,0.3);
+    direction: rtl;
+    text-align: right;
+    font-family: 'Noto Nastaliq Urdu';
+
+}
+
+.poem-container h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ffd700;
+}
+
+.poem-container p{
+    font-size: 18px;
+    line-height: 1.8;
+    font-family: Gegoria,serif;
+    white-space: pre-line
+    ;
+}
+.image-container{
+    display:flexbox;
+    justify-items: center;
+   place-items: center;
+   height: 100vh;
+ 
+}
+
+
+
+.main-image{
+   position: relative;
+    width: 300px;
+    height: auto;
+}
